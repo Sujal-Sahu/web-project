@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>knowweather.com</title>
+</head>
+<body>
+    {{>header}}
+    <div class="getcityname">
+        <div class="searchbox">
+            <input type="text" placeholder="Enter City Name......." id="city_name" name="city" autocomplete="off">
+        </div>
+        <div class="searchbutton">
+            <button id="special_search">SEARCH</button>
+        </div>
+    </div>
+    <div class="outputbox"> 
+        <div class="datetime">
+            <p class="day" id="day1">TUESDAY </p>
+            <p class="date" id="date1">13 DEC</p>
+        </div>
+        <hr>
+        <div class="output">
+            <h2 class="mainoutput" id="mainoutput1">Get Output Here</h2>
+            <div class="middle-layer data-hide">
+                <p class="temperature"><span id="temp">0</span><sup>o</sup>C</p>
+                <p class="temp_status" id="temp_status1"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="../../public/js/main.js"></script>
+</body>
+</html>
