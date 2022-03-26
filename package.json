@@ -4,7 +4,8 @@
   "description": "it describes the weather status of your city.",
   "main": "mainnode.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainnode.js"
   },
   "author": "Sujal sahu",
   "license": "ISC",
