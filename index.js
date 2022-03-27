@@ -13,7 +13,7 @@ app.set('view engine','hbs');
 app.set('views',templatespath);
 app.use('/public',express.static(staticpath));
 hbs.registerPartials(partialpath);
-app.get('/',(req,res)=>{
+app.get('/nodejsweatherwebsite/',(req,res)=>{
     res.render("index.hbs");
 })
 
