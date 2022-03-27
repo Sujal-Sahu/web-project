@@ -5,7 +5,7 @@
   "main": "mainnode.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"index"
+    "start":"node index.js"
   },
   "author": "Sujal sahu",
   "license": "ISC",
